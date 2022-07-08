@@ -5,3 +5,6 @@ from django.shortcuts import render
 
 def hellodjango(request: HttpRequest):
     return HttpResponse("Hello Django!")
+
+def helloName(request, name):
+    return HttpResponse(f"Hello {name}!")
