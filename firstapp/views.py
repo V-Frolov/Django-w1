@@ -15,9 +15,14 @@ def helloName(request, name):
     return HttpResponse(f"Hello {name}!")
 
 
-def showDate(request):
-#    currentdate = datetime.date.today()
-#    formatDate = currentdate.strftime("%d%m%Y")
-#    print('Today is: ', formatDate)
-    print('Data: ', datetime.now())
-    return HttpResponse(datetime.now())
+def show_date(request):
+    return HttpResponse(datetime.now().strftime('%d.%m.%Y'))
+
+def show_date_year(request):
+    return HttpResponse(datetime.now().strftime('%Y'))
+
+def show_date_month(request):
+    return HttpResponse(datetime.now().strftime('%m'))
+
+def show_date_day(request):
+    return HttpResponse(datetime.now().strftime('%d'))
