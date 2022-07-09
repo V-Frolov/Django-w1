@@ -1,0 +1,14 @@
+Дані	-	7.  Прикладний									-	Application programming
+			доступ до мережевих служб
+Дані	-	6.  Представлення								-	Application programming
+			представлення і кодування даних
+Дані	-	5.  Сеансовий									-	Application programming
+			керування сеансом зв'язку
+Блоки	-	4.  Транспортний								-	Application programming
+			безпечне та надійне з'єднання «точка - точка»
+Пакети	-	3.  Мережевий									-	Low-level programming (hardcore)
+			визначення маршруту та логічних адрес
+Кадри	-	2.  Канальний									-	Low-level programming (hardcore)
+			MAC та LLC (фізична адресація)
+Біти	-	1.  Фізичний									-	Low-level programming (hardcore)
+			кабель, сигнали, бінарна передача
